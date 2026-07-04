@@ -1,7 +1,7 @@
 # Nuclei Contribution Guide
-Templates are the core of the [nuclei scanner](https://github.com/projectdiscovery/nuclei) which powers the actual scanning engine. The Nuclei Templates repository stores and houses various templates for a variety of protocols, including TCP, DNS, HTTP, SSL, File, Whois, Websocket, Headless etc. for the scanner provided by our team, as well as contributed by the community.
+Templates are the core of the [nuclei scanner](https://github.com/Unity-Billal-mesloub/nuclei) which powers the actual scanning engine. The Nuclei Templates repository stores and houses various templates for a variety of protocols, including TCP, DNS, HTTP, SSL, File, Whois, Websocket, Headless etc. for the scanner provided by our team, as well as contributed by the community.
 
-We have over **9000+** templates contributed by **more than 800** security researchers and engineers. We hope that you contribute by sending templates via **pull requests** or [Github issues](https://github.com/projectdiscovery/nuclei-templates/issues/new?assignees=&labels=&template=submit-template.md&title=%5Bnuclei-template%5D+) to grow the list. By contributing, you won't only help the community **❤️** but can also gain experience, increase community and peer recognition, improving your job prospects
+We have over **9000+** templates contributed by **more than 800** security researchers and engineers. We hope that you contribute by sending templates via **pull requests** or [Github issues](https://github.com/Unity-Billal-mesloub/nuclei-templates/issues/) to grow the list. By contributing, you won't only help the community **❤️** but can also gain experience, increase community and peer recognition, improving your job prospects
 
 This documentation contains a set of guidelines to help you during the contribution process. We are happy to welcome all the contributions from anyone willing to **improve/add** new **templates** to this project. Thank you for helping out and remember, **no contribution is too small.**
 
@@ -19,9 +19,9 @@ This documentation contains a set of guidelines to help you during the contribut
 
 **Before Submitting an Issue or Pull Request**
 
-- Take a look at the [Existing Templates](https://github.com/projectdiscovery/nuclei-templates) or search for endpoints before creating new one.
-- Take a look at Existing Templates in [GitHub Issues](https://github.com/projectdiscovery/nuclei-templates/issues) and [Pull Request](https://github.com/projectdiscovery/nuclei-templates/pulls) section to avoid duplicate work.
-- Take a look at [Templates](TEMPLATE-CREATION-GUIDE.md) and [Matchers](https://github.com/projectdiscovery/nuclei-templates/wiki/How-to-Write-Unique-Matchers-in-Nuclei-Templates) Guideline for creating new template.
+- Take a look at the [Existing Templates](https://github.com/Unity-Billal-mesloub/nuclei-templates) or search for endpoints before creating new one.
+- Take a look at Existing Templates in [GitHub Issues](https://github.com/Unity-Billal-mesloub/nuclei-templates/issues) and [Pull Request](https://github.com/Unity-Billal-mesloub/nuclei-templates/pulls) section to avoid duplicate work.
+- Take a look at [Templates](TEMPLATE-CREATION-GUIDE.md) and [Matchers](https://github.com/Unity-Billal-mesloub/nuclei-templates/wiki/How-to-Write-Unique-Matchers-in-Nuclei-Templates) Guideline for creating new template.
 
 Along with the P.O.C following are the required fields in the info section for submitting new template.
 
@@ -68,7 +68,7 @@ Along with the P.O.C following are the required fields in the info section for s
 ```jsx
 git clone https://github.com/<your-username>/nuclei-templates
 cd nuclei-templates
-git remote add upstream https://github.com/projectdiscovery/nuclei-templates
+git remote add upstream https://github.com/Unity-Billal-mesloub/nuclei-templates
 ```
 
 - If you have already forked the project, update your copy before working.
@@ -126,7 +126,7 @@ git push -u origin template_branch_name
 - Fire up your favorite browser, navigate to your GitHub repository, then click on the New pull request button within the Pull requests tab. Provide a meaningful name and description to your pull request, that describes the purpose of the template.
 - Voila! Your Pull Request has been submitted. It will be reviewed and merged by the moderators, if it complies with project standards, otherwise a feedback will be provided.🥳
 
-### Reporting [False Negative Template](https://github.com/projectdiscovery/nuclei-templates/issues/new?template=false-negative.yml)
+### Reporting [False Negative Template](https://github.com/Unity-Billal-mesloub/nuclei-templates/issues)
 
 You can contribute to the project by creating issue/PR for templates which are missing valid/expected result.
 
@@ -137,7 +137,7 @@ You can contribute to the project by creating issue/PR for templates which are m
 > Note: If host information can not be shared publicly, please reach out to us on discord server in DM.
 > 
 
-**Creating a [False negative issue](https://github.com/projectdiscovery/nuclei-templates/issues/new?template=false-negative.yml) or Submit a PR**
+**Creating a [False negative issue](https://github.com/Unity-Billal-mesloub/nuclei-templates/issues) or Submit a PR**
 
 - Click on the Issues Tab and then click on `new issue.`
 - Click on `get started` in front of **`False Negative`**
@@ -150,7 +150,7 @@ You can contribute to the project by creating issue/PR for templates which are p
 - Share the `-debug` data and if possible the host where the template is matching the non-vulnerable target and producing invalid/unexpected result.
 - If possible share the improved or valid matchers and reference to the vulnerability.
 
-**Creating a [False positive issue](https://github.com/projectdiscovery/nuclei-templates/issues/new?template=false-positive.yml) or Submit a PR**
+**Creating a [False positive issue](https://github.com/Unity-Billal-mesloub/nuclei-templates/issues) or Submit a PR**
 
 - Click on the Issues Tab and then click on `new issue.`
 - Click on `get started` in front of **`False Positive`**
